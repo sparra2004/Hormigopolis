@@ -61,6 +61,30 @@ build CMakeFiles/Proyecto.dir/src/Personaje.cpp.obj: CXX_COMPILER__Proyecto_unsc
   OBJECT_DIR = CMakeFiles\Proyecto.dir
   OBJECT_FILE_DIR = CMakeFiles\Proyecto.dir\src
 
+build CMakeFiles/Proyecto.dir/src/Ray.cpp.obj: CXX_COMPILER__Proyecto_unscanned_Debug C$:/GIT/Hormigopolis/Proyecto/src/Ray.cpp || cmake_object_order_depends_target_Proyecto
+  DEP_FILE = CMakeFiles\Proyecto.dir\src\Ray.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Proyecto.dir
+  OBJECT_FILE_DIR = CMakeFiles\Proyecto.dir\src
+
+build CMakeFiles/Proyecto.dir/src/ReyHongo.cpp.obj: CXX_COMPILER__Proyecto_unscanned_Debug C$:/GIT/Hormigopolis/Proyecto/src/ReyHongo.cpp || cmake_object_order_depends_target_Proyecto
+  DEP_FILE = CMakeFiles\Proyecto.dir\src\ReyHongo.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Proyecto.dir
+  OBJECT_FILE_DIR = CMakeFiles\Proyecto.dir\src
+
+build CMakeFiles/Proyecto.dir/src/Npc.cpp.obj: CXX_COMPILER__Proyecto_unscanned_Debug C$:/GIT/Hormigopolis/Proyecto/src/Npc.cpp || cmake_object_order_depends_target_Proyecto
+  DEP_FILE = CMakeFiles\Proyecto.dir\src\Npc.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Proyecto.dir
+  OBJECT_FILE_DIR = CMakeFiles\Proyecto.dir\src
+
+build CMakeFiles/Proyecto.dir/src/CentroDeControl.cpp.obj: CXX_COMPILER__Proyecto_unscanned_Debug C$:/GIT/Hormigopolis/Proyecto/src/CentroDeControl.cpp || cmake_object_order_depends_target_Proyecto
+  DEP_FILE = CMakeFiles\Proyecto.dir\src\CentroDeControl.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Proyecto.dir
+  OBJECT_FILE_DIR = CMakeFiles\Proyecto.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Proyecto
@@ -69,7 +93,7 @@ build CMakeFiles/Proyecto.dir/src/Personaje.cpp.obj: CXX_COMPILER__Proyecto_unsc
 #############################################
 # Link the executable Proyecto.exe
 
-build Proyecto.exe: CXX_EXECUTABLE_LINKER__Proyecto_Debug CMakeFiles/Proyecto.dir/main.cpp.obj CMakeFiles/Proyecto.dir/src/Personaje.cpp.obj
+build Proyecto.exe: CXX_EXECUTABLE_LINKER__Proyecto_Debug CMakeFiles/Proyecto.dir/main.cpp.obj CMakeFiles/Proyecto.dir/src/Personaje.cpp.obj CMakeFiles/Proyecto.dir/src/Ray.cpp.obj CMakeFiles/Proyecto.dir/src/ReyHongo.cpp.obj CMakeFiles/Proyecto.dir/src/Npc.cpp.obj CMakeFiles/Proyecto.dir/src/CentroDeControl.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Proyecto.dir
